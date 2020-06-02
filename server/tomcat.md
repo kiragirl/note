@@ -1,3 +1,4 @@
+#
 ###异常
 1. Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
 URL中包含 |, {}等符号会产生此异常
