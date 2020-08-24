@@ -1,4 +1,5 @@
 #linux常用命令
+连接服务器：ssh root@120.25.12.92
 实时日志监控 ：tail -f catalina.out
 文件输出：tail -1000 catalina.out
 回到上一层目录：cd ..
@@ -12,6 +13,6 @@ Docker 命令：
 启动        systemctl start docker
 守护进程重启   sudo systemctl daemon-reload
 重启docker服务   systemctl restart  docker
-重启docker服务  sudo service docker restart
+重启docker服务  sudo service docker restartc
 关闭docker   service docker stop   
 关闭docker  systemctl stop docker
